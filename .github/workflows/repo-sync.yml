@@ -25,6 +25,6 @@ jobs:
         with:
           source_repo: "https://github.com/hajiuhajiu/jdsign1112.git"
           source_branch: "master"
-          destination_branch: "master"
+          destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
 
